@@ -129,7 +129,7 @@ async function getAllPokemon(filters: Filter): Promise<Pokemon[]> {
 }
 
 // get data about a specific pokemon by species_id
-async function getPokemon(id: number) {
+async function getPokemon(id: number): Promise<Pokemon> {
   const query = `query getPokemon($where: pokemon_v2_pokemonspeciesname_bool_exp) {
     getPokemon: pokemon_v2_pokemonspeciesname(limit: 1, where: $where) {
       name
