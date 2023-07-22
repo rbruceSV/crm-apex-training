@@ -15,7 +15,7 @@ export default function PokemonDetail({pokemon}:{pokemon: Pokemon}) {
       </Head>
       <div className='mainContain'>
         <main className={`main ${inter.className}`}>
-          <Link href="/pokemon"><div><span className='arrow blue'>❮</span><span>Back</span></div></Link>
+          <Link href="/"><div><span className='arrow blue'>❮</span><span>Back</span></div></Link>
           <PokeDetail pokemon={pokemon}/>
           
         </main>
