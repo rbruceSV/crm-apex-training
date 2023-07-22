@@ -1,0 +1,60 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #8DC63F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div.mainContain {
+  background: url(/icon-pokemon-124x124.svg) no-repeat 50%/1100px, linear-gradient(180deg, #ffffff 50%, #F2F2F2 50%)
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+table {
+  width: 100%;
+}
+
+.main {
+  max-width: 885px;
+  margin: 0 auto;
+  margin-top:20px;
+  padding-top: 20px;
+  padding-bottom:120px;
+}
+
+.mainHeader {
+  font-size: 72px;
+  line-height: 64px;
+  font-weight: 900;
+  margin-bottom: 30px;
+  margin-top:30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.arrow {
+  font-size: 40px;
+}
+
+.arrow.blue {
+  color: #176DDE;
+}

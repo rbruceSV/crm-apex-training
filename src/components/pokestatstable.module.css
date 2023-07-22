@@ -1,0 +1,20 @@
+.flexRow {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.flexRow.statTable {
+  width: 660px;
+  background:#ffffff;
+  border-radius: 20px;
+  border: 1px solid #DDDDDD;
+  margin: 0 auto;
+  padding: 30px 50px;
+}
+
+.statTable>div{
+  width: 50%
+}

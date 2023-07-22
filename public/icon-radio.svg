@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<style>
+			.ben{fill:none;stroke:#bebebe;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}
+		</style>
+	</defs>
+	<title>icon-radio</title>
+	<circle class="ben" cx="10" cy="10" r="9"/>
+</svg>
