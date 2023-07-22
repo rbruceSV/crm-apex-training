@@ -12,7 +12,7 @@ export default function PokeStatsTable ({ pokemon }: {pokemon: Pokemon}) {
             <tbody>
             <tr>
               <td>Height</td>
-              <td className='bold'>{pokeHeight.feet}' {pokeHeight.inches}"</td>
+              <td className='bold'>{pokeHeight.feet}&apos; {pokeHeight.inches}&quot;</td>
             </tr>
             <tr>
               <td>Weight</td>
