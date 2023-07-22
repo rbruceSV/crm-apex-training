@@ -1,0 +1,94 @@
+.poketype {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 20px;
+  background-color: grey;
+  text-align: center;
+  padding: 4px 16px; 
+  width: auto;
+}
+
+.pokenum {
+  color: #808285;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.flexRow {
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.flexRow.splitem {
+  justify-content: space-between;
+}
+
+/* split these into their own file, really should've used sass */
+.poketype.grass {
+  background: transparent linear-gradient(180deg, #9BCC50 50%, #9BCC50 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.poison {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #B97FC9 50%, #B97FC9 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.fire {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #FD7D24 50%, #FD7D24 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.water {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #4592C4 50%, #4592C4 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.bug {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #729F3F 50%, #729F3F 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.dragon {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #53A4CF 50%, #F16E57 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.fairy {
+  background: transparent linear-gradient(180deg, #FDB9E9 50%, #FDB9E9 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.ghost {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #7B62A3 50%, #7B62A3 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.ground {
+  background: transparent linear-gradient(180deg, #F7DE3F 50%, #AB9842 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.normal {
+  background: transparent linear-gradient(180deg, #A4ACAF 50%, #A4ACAF 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.psychic {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #F366B9 50%, #F366B9 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.steel {
+  background: transparent linear-gradient(180deg, #9EB7B8 50%, #9EB7B8 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.dark {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #707070 50%, #707070 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.electric {
+  background: transparent linear-gradient(180deg, #EED535 50%, #EED535 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.fighting {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #D56723 50%, #D56723 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.ice {
+  background: transparent linear-gradient(180deg, #51C4E7 50%, #51C4E7 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.rock {
+  color: #fff;
+  background: transparent linear-gradient(180deg, #A38C21 50%, #A38C21 50%) 0% 0% no-repeat padding-box;
+}
+.poketype.flying {
+  background: transparent linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%) 0% 0% no-repeat padding-box;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<style>
+			.ben{fill:none;stroke:#00a4ef;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}
+			.rey{fill:#00a4ef;}
+		</style>
+	</defs>
+	<title>icon-radio-selected</title>
+	<circle class="ben" cx="10" cy="10" r="9"/>
+	<circle class="rey" cx="10" cy="10" r="6"/>
+</svg>
